@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <img
+        src="pictures/mcgregor-codes.png"
+        style="
+          height: 100px;
+          width: 200px;
+          padding-top: 0px;
+          padding-bottom: 10px;
+        "
+        alt="John McGregor Logo"
+        class="logo"
+      />
+      <button class="toggle-btn" id="toggleBtn">
+        <i class="fas fa-bars" id="menuIcon"></i>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button
+        id="themeToggleBtn"
+        style="
+          position: relative;
+          top: 10px;
+          right: 10px;
+          z-index: 2000;
+          padding: 8px 16px;
+          border-radius: 10px;
+          border: none;
+          background-color: #121212;
+          color: #f5f5f5;
+          font-weight: 700;
+          cursor: pointer;
+          margin-top: 110px;
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.6);
+        "
+      >
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+    <aside class="social-sidebar">
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/mcgregor-codes"
+            aria-label="LinkedIn"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/McGregor-codes" aria-label="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/de.general.7311"
+            aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </aside>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <img
+          src="images/IMG-20231125-WA0037.jpg"
+          alt="John McGregor image"
+          class="logo-image"
+        />
+        <h1>HEY, I'M JOHN MCGREGOR</h1>
+        <p id="typewriter">A passionate Web Developer and Graphic Designer</p>
+        <a
+          href="document/John McGregor_Web Developer_Graphic Designer_Resume.pdf"
+          class="btn-projects"
+          >RESUME</a
+        >
+      </div>
+    </section>
+    <section id="about">
+      <h2>ABOUT ME</h2>
+      <hr />
+      <div class="about-content">
+        <h3><strong>Get to know me!</strong></h3>
+        <p>
+          I’m a motivated <strong>Frontend Web Developer</strong> and <strong>Graphic Designer</strong> with a passion for transforming ideas into interactive, accessible, and visually compelling digital experiences. I specialize in building user-focused websites and designs that work seamlessly across all devices.
+        </p>
+        <p>
+          What began as a simple curiosity about how things work on the web has grown into a deep commitment to crafting impactful digital solutions. I’ve helped individuals, startups, and brands bring their visions to life through intuitive interfaces, bold visual identities, and clean, responsive code.
+        </p>
+        <p>
+          I approach every project with clarity, functionality, and purpose. For me, good design isn’t just about looks—it’s about connecting with users and enhancing their experience. Let’s build something meaningful that stands out and speaks volumes.
+        </p>
+      </div>
+      <div class="about-image">
+        <img
+          src="images/20250721_145327_0000.png"
+          alt="John McGregor image"
+          class="about-image"
+        />
+      </div>
+      <div class="skills-list">
+        <h3><strong>My Skills</strong></h3>
+        <nav class="skills">
+          <figure>
+            <img
+              src="images/20250712_022838_0000.png"
+              style="height: 60px; width: 60px"
+            />
+            <figcaption
+              style="
+                font-weight: 700;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+                  serif;
+              "
+            >
+              HTML
+            </figcaption>
+          </figure>
+          <br />
+          <figure>
+            <img
+              src="images/20250712_023028_0000.png"
+              style="height: 60px; width: 60px"
+            />
+            <figcaption
+              style="
+                font-weight: 700;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+                  serif;
+              "
+            >
+              CSS
+            </figcaption>
+          </figure>
+          <br />
+          <figure>
+            <img
+              src="pictures/tailwind-css-svgrepo-com.svg"
+              style="height: 60px; width: 60px"
+            />
+            <figcaption
+              style="
+                font-weight: 700;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+                  serif;
+              "
+            >
+              Tailwind-CSS
+            </figcaption>
+          </figure>
+          <br />
+          <figure>
+            <img
+              src="pictures/javascript-logo-svgrepo-com.svg"
+              style="height: 60px; width: 60px"
+            />
+            <figcaption
+              style="
+                font-weight: 700;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+                  serif;
+              "
+            >
+              JavaScript
+            </figcaption>
+          </figure>
+          <br />
+          <figure>
+            <img
+              src="images/corel-draw-svgrepo-com.svg"
+              style="height: 60px; width: 60px"
+            />
+            <figcaption
+              style="
+                font-weight: 700;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+                  serif;
+              "
+            >
+              Corel Draw
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="pictures/photoshop-cc-logo-svgrepo-com.svg"
+              style="height: 60px; width: 60px"
+            />
+            <figcaption
+              style="
+                font-weight: 700;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+                  serif;
+              "
+            >
+              Adobe Photoshop
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/20250712_023223_0000.png"
+              style="height: 60px; width: 60px"
+            />
+            <figcaption
+              style="
+                font-weight: 700;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+                  serif;
+              "
+            >
+              Canva
+            </figcaption>
+          </figure>
+        </nav>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>My Projects</h2>
+      <hr />
+      <div class="p">
+        <h3><strong>Explore My Work</strong></h3>
+        <p>Here are some of my recent projects that showcase my skills in web
+        development and design. Each project reflects my commitment to quality
+        and user experience.</p>
+        <p>Feel free to explore and get in touch if you have any questions or would
+        like to collaborate!</p>
+      </div>
+      <nav class="project-nav">
+        <a href="#" class="filter-btn" data-filter="all">All (19)</a>
+        <a href="#" class="filter-btn" data-filter="web">Web Design (1)</a>
+        <a href="#" class="filter-btn" data-filter="graphic">Graphic Design (18)</a>
+      </nav>
+      <div class="grouped-projects">
+        <!-- Web Project -->
+        <div class="project-item" data-category="web">
+          <figure>
+            <video
+              src="videos/login-page.mp4"
+              class="project-image"
+              autoplay
+              loop
+              muted
+              playsinline
+              loading="lazy"
+            ></video>
+            <figcaption>
+              Signup/Login (Web Page)<br /><br />
+              <a href="https://McGregor-Codes.github.io/Login-Signup-page/"
+                >Click here to preview</a
+              >
+            </figcaption>
+          </figure>
+        </div>
+        <!-- Graphic Projects -->
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <video
+              src="videos/superior-luxe.mp4"
+              class="project-image"
+              autoplay
+              loop
+              muted
+              playsinline
+              loading="lazy"
+            ></video>
+            <figcaption>Superior Luxe (clip)</figcaption>
+          </figure>
+        </div>
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <img
+              src="pictures/paediatric-endo-ephrology-unit.jpg"
+              class="project-image"
+              loading="lazy"
+            />
+            <figcaption>World Diabetes Day (Flex)</figcaption>
+          </figure>
+        </div>
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <img
+              src="pictures/superior-luxe-beauty.jpg"
+              class="project-image"
+              loading="lazy"
+            />
+            <figcaption>Superior Luxe (Flyer)</figcaption>
+          </figure>
+        </div>
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <img
+              src="images/1655377730005.jpg"
+              class="project-image"
+              loading="lazy"
+            />
+            <figcaption>Business & Career Breakthrough (Flyer)</figcaption>
+          </figure>
+        </div>
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <img
+              src="images/1656027992526.jpg"
+              class="project-image"
+              loading="lazy"
+            />
+            <figcaption>Covenant Family Day (Flyer)</figcaption>
+          </figure>
+        </div>
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <img
+              src="images/1656028118837.jpg"
+              class="project-image"
+              loading="lazy"
+            />
+            <figcaption>Financial Fortune Banquet (Flyer)</figcaption>
+          </figure>
+        </div>
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <img
+              src="images/1656028031829.jpg"
+              class="project-image"
+              loading="lazy"
+            />
+            <figcaption>Covenant day of settlement (Flyer)</figcaption>
+          </figure>
+        </div>
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <img
+              src="pictures/shoes-sale.png"
+              class="project-image"
+              loading="lazy"
+            />
+            <figcaption>SFH Sneakers (Flyer)</figcaption>
+          </figure>
+        </div>
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <img
+              src="pictures/meek-merdy.png"
+              class="project-image"
+              loading="lazy"
+            />
+            <figcaption>Meek Merdy - B&C (Music Cover)</figcaption>
+          </figure>
+        </div>
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <img
+              src="pictures/1747924475624.jpg"
+              class="project-image"
+              loading="lazy"
+            />
+            <figcaption>Medical Biochemistry 2023 Set</figcaption>
+          </figure>
+        </div>
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <img
+              src="pictures/1656028141569.jpg"
+              class="project-image"
+              loading="lazy"
+            />
+            <figcaption>Covenant Day of Vengeance (Flyer)</figcaption>
+          </figure>
+        </div>
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <img
+              src="pictures/world-diabetes-day-flyer.jpg"
+              class="project-image"
+              loading="lazy"
+            />
+            <figcaption>World Diabetes Day (Flyer)</figcaption>
+          </figure>
+        </div>
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <img
+              src="pictures/fanzy-flex.jpg"
+              class="project-image"
+              loading="lazy"
+            />
+            <figcaption>Fanzy (Flex)</figcaption>
+          </figure>
+        </div>
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <img
+              src="pictures/meek-merdy-okay.png"
+              class="project-image"
+              loading="lazy"
+            />
+            <figcaption>Meek Merdy - Okay (Music Cover)</figcaption>
+          </figure>
+        </div>
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <img
+              src="images/sport-shoes.png"
+              class="project-image"
+              loading="lazy"
+            />
+            <figcaption>SFH Sport Shoes (Flyer)</figcaption>
+          </figure>
+        </div>
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <img
+              src="images/superior-lux-a6.jpg"
+              class="project-image"
+              loading="lazy"
+            />
+            <figcaption>Superior Luxe (A6 Flyer)</figcaption>
+          </figure>
+        </div>
+        <div class="project-item" data-category="graphic">
+          <figure>
+            <img
+              src="images/choice-enterprise.jpg"
+              class="project-image"
+              loading="lazy"
+            />
+            <figcaption>Choice Ent. (Flex)</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="contact">
+      <div class="footer-container">
+        <div class="footer-links">
+          <p>Get In Touch</p>
+        </div>
+
+        <div class="footer-socials">
+          <a
+            href="https://github.com/yourusername"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://linkedin.com/in/yourprofile"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:jm6679389@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        <div class="footer-name">
+          © 2025 | Designed And Built By John McGregor
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
